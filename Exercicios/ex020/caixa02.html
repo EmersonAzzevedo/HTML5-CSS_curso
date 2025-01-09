@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+            margin: 5px;
+            padding: auto;
+        } header{
+            width: 900px;
+            background-color: bisque;
+            margin: 5px;
+            padding: 5px;
+        } h1{
+            margin: 5px;
+            padding: 5px;
+            box-shadow: 5px 7px 3px 5px rgba(14, 14, 14, 0.382);
+            border-radius: 25px;
+            
+        } 
+        nav{
+            background-color: aliceblue;
+            padding: 5px;
+            margin: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.333);
+            border-radius: 25px;
+        } nav > a{
+            text-decoration: none;
+            color: aquamarine;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }  main{
+            
+            padding: 5px;
+            margin: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.485);
+            border-radius:10px 35px;
+        }
+        article{
+            background-color: rgb(239, 231, 221);
+            padding: 0px;
+
+        } article > aside{
+            background-color: rgb(149, 113, 67);
+        }
+           
+         footer{
+            background-color: blue;
+            color: antiquewhite;
+            text-align: center;
+            padding: 5px;
+        } footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+           <a href="#">link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam impedit ipsum officia totam ut quibusdam quod eveniet et quis! Eum sint, illum natus fuga repellendus iure deleniti dolor vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nemo blanditiis nobis dicta fugiat dignissimos dolorem ipsum quaerat quos fugit error, quod, odit, autem expedita? Cupiditate ducimus in culpa voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ut nobis maiores corrupti officiis quaerat repellendus quia enim cum ullam assumenda accusamus optio accusantium consequatur doloremque vitae at aut dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui libero quas, expedita beatae ducimus itaque quod? Debitis praesentium ipsum iure alias veniam repellendus vitae, hic aperiam modi culpa nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, nesciunt vel perferendis dicta vitae fugiat optio hic fugit aut nobis, sit facere natus similique dolor voluptas libero porro provident quas.</p>
+                <aside>
+                    <p>Artigo Escrito por Jose Emerson</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+
+    </footer>
+
+</body>
+</html>
