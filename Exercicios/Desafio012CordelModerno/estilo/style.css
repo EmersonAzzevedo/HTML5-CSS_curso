@@ -9,7 +9,7 @@
     --fonte2: "Passion One", serif;
     --fonte3: "Sriracha", serif;
 }
-}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -66,13 +66,29 @@ section.normal{
 section.imagem{
     background-color: rgb(57, 57, 57);
     color: white;
+    box-shadow: inset 6px 6px 15px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.212);
+    text-shadow: 1px 1px 0px black;
+  
+}
 
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+   
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+   
 }
 
 footer{
